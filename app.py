@@ -22,11 +22,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(
 
 with tab1:
 
-    colored_header(
-        label="🧠 General Insights",
-        description=None,
-        color_name="orange-70",
-    )
+    st.subheader("🧠 General Insights")
 
 # Q. Top 10 best-selling games based on Global Sales
 
@@ -119,11 +115,7 @@ with tab1:
 
 with tab2:
 
-    colored_header(
-        label="🎮 Platform Insights",
-        description=None,
-        color_name="orange-70",
-    )
+    st.subheader("🎮 Platform Insights")
 
 # Q. Total Global_Sales by Platform.
     st.write("##### Total `Global_Sales` by `Platform`.")
@@ -196,11 +188,7 @@ with tab2:
 
 with tab3:
 
-    colored_header(
-        label="📈 Genre Insights",
-        description=None,
-        color_name="orange-70",
-    )
+    st.subheader("📈 Genre Insights")
 # Q. Visualize total Global_Sales by Genre
 
     st.write("##### Total `Global_Sales` by `Genre`.")
@@ -268,12 +256,7 @@ with tab3:
 
 with tab4:
 
-    colored_header(
-        label="🏢 Publisher Insights",
-        description=None,
-        color_name="orange-70",
-    )
-
+    st.subheader("🏢 Publisher Insights")
 # Q. Top 5 Publishers by total Global_Sales.
     st.write("##### Top 5 `Publishers` by total `Global_Sales`.")
 
@@ -316,11 +299,7 @@ with tab4:
 
 with tab5:
 
-    colored_header(
-        label="🌍 Regional & Trend Insights",
-        description=None,
-        color_name="orange-70",
-    )
+    st.subheader("🌍 Regional & Trend Insights")
 
 # Q. Region-wise contribution (NA_Sales, EU_Sales, JP_Sales, Other_Sales) to total Global_Sales.
 
