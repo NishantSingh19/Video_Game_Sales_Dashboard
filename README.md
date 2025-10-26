@@ -66,5 +66,3 @@ This project provides deep insights into sales performance by **year, genre, pla
 
 ---
 
-## 📂 Project Structure
-
