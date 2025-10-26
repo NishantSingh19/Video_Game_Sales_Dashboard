@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-from streamlit_extras.colored_header import colored_header
 
 
 # Page Title & Page Icon
@@ -360,3 +359,4 @@ with tab5:
 
     fig16 = px.imshow(corr, text_auto=True, color_continuous_scale="ice")
     st.plotly_chart(fig16, use_container_width=True)
+
